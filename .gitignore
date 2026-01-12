@@ -12,7 +12,9 @@ build/
 
 # Data
 data/
+*.pkl
 logs/
+*.jsonl
 
 # Environment
 .env
