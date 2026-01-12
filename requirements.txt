@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+xgboost
+shap
+tensorflow==2.15.*
+keras==2.15.*
+matplotlib
+seaborn
+joblib
+pyyaml
+fastapi
+uvicorn
+websockets

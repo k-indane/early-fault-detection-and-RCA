@@ -1,0 +1,18 @@
+data:
+  fault_free_path: "data/TEP_FaultFree_Training_fault_free_training.pkl"
+  faulty_path: "data/TEP_Faulty_Training_faulty_training.pkl"
+
+monitor:
+  fault_intro_sample: 20
+  eval_every_n_samples: 1
+
+xgb:
+  enable: true
+  artifact_path: models/xgb_fault_detector.joblib
+  confidence_threshold: 0.8
+  consecutive_required: 3
+
+ae:
+  enable: true
+  artifact_path: models/ae_unknown_fault_detector.joblib
+  consecutive_required: 2
