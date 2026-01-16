@@ -253,7 +253,11 @@ The project requires two simutaneous services: the backend API and the frontend 
 
 ### Data Files
 
-Make sure the following data files are present in the `data/` directory:
+You can download data from here: [Kaggle Dataset](https://www.kaggle.com/datasets/averkij/tennessee-eastman-process-simulation-dataset)
+
+Convert from .RData to .pkl
+
+Make sure the following data files are present in a `data/` directory:
 - `TEP_FaultFree_Training_fault_free_training.pkl`
 - `TEP_Faulty_Training_faulty_training.pkl`
 
