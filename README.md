@@ -2,23 +2,30 @@
 
 This project implements an end-to-end early fault detection and root cause analysis system for industrial process data, producing a real-time streaming monitoring service with a backend hybrid ML pipeline and a live frontend dashboard. This system detects known and unseen faults, escalates alerts, and performs root cause analysis.
 
+In real manufacturing environments, engineers spend a significant amount of time responding to alarms, correlating signals, and performing root cause analysis before corrective action can begin. By moving beyond static SPC thresholds to intelligent fault classification and automated RCA, this system reduces the time from fault onset to actionable insight, enabling faster recovery to stable production and lower downtime costs.
+
 The dataset used is from the Tennessee Eastman Process, a benchmark chemical process simulation commonly used in research on fault detection and process control.
 
 ## What This Project Demonstrates
 - Production style ML system architecture
 - Hybrid detection using supervised (XGBoost) + unsupervised models (NN Autoencoder)
 - Root Cause Analysis with interpretable ML via SHAP and partial residual analysis
-- Decision logic to manage hybrid model performance
+- Decision/Arbritration logic to manage hybrid model performance
 - Real-time inference & streaming
 - Full stack integration (Python FastAPI backend + TypeScript frontend)
 
 ## Video
 
-Please refer to the video below for technical modeling details, and a live demo!
+Please refer to this video for a live demo:
 
- **Placeholder for Video**
+[![Project Live Demo Video](https://img.youtube.com/vi/I56l5w5JNJQ/maxresdefault.jpg)](https://youtu.be/I56l5w5JNJQ)
 
-A full technical report covering problem introduction, EDA, feature engineering, model design, training, and evaluation is included under 'docs/'.
+Please refer to this video for a technical walkthrough covering modeling approach and performance:
+
+[![Project Walkthrough Video](https://img.youtube.com/vi/gir7dXHgOZ4/maxresdefault.jpg)](https://youtu.be/gir7dXHgOZ4)
+
+
+A full technical report covering problem introduction, EDA, feature engineering, model design, training, and evaluation is included under `docs/`.
 
 ## System Architecture
 
@@ -267,6 +274,8 @@ Kaustubh Indane
 M.S. Data Science AI - Northwestern University
 
 Background in semiconductor process integration
+
+indane.kaustubh@gmail.com
 
 # License
 This project is intended for educational and portfolio purposes only.
